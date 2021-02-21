@@ -49,13 +49,13 @@ export class HomePage {
       this.display = Math.PI;
     }
     else if(this.operator == 'Sin'){
-      this.display =  Math.sin(this.display * Math.PI/180),'°';
+      this.display =  Math.sin(this.display * Math.PI/180) + '°';
     }
     else if(this.operator == 'Cos'){
-      this.display = Math.cos(this.display * Math.PI/180),'°';
+      this.display = Math.cos(this.display * Math.PI/180) + '°';
     }
     else if(this.operator == 'Tan'){
-      this.display = Math.tan(this.display * Math.PI/180),'°';
+      this.display = Math.tan(this.display * Math.PI/180) + '°';
     }
   }
 
